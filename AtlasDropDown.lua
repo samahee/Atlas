@@ -26,8 +26,8 @@ Atlas_DropDownLayouts_Order = {
 	[1] = ATLAS_DDL_CONTINENT;
 	[2] = ATLAS_DDL_PARTYSIZE;
 	[3] = ATLAS_DDL_TYPE;
-	[4] = ATLAS_DDL_ALL;
-	[5] = ATLAS_DDL_LEVELING_GUIDE;
+	--[4] = ATLAS_DDL_ALL;
+	--[5] = ATLAS_DDL_LEVELING_GUIDE;
 	[ATLAS_DDL_CONTINENT] = {
 		[1] = ATLAS_DDL_CONTINENT_EASTERN;
 		[2] = ATLAS_DDL_CONTINENT_KALIMDOR;
@@ -131,7 +131,7 @@ Atlas_DropDownLayouts = {
 			"FourDragons",
 			"LordKazzak",
 			-- TurtleWOW
-			"Turtlhu",
+			--"Turtlhu",
 			"Nerubian",
 			"Reaver",
 			"Ostarius",
@@ -221,7 +221,7 @@ Atlas_DropDownLayouts = {
 			"FourDragons",
 			"LordKazzak",
 			-- TurtleWOW
-			"Turtlhu",
+			--"Turtlhu",
 			"Nerubian",
 			"Reaver",
 			"Ostarius",
@@ -262,6 +262,7 @@ Atlas_DropDownLayouts = {
 			"CavernsOfTimeBlackMorass", -- TurtleWOW
 			"BlackrockDepths",
 			"BlackrockSpireLower",
+			"BlackrockSpireUpper",
 			"TheCrescentGrove", -- TurtleWOW
 			"DireMaulEast",
 			"DireMaulNorth",
@@ -291,8 +292,6 @@ Atlas_DropDownLayouts = {
 		},
 		[ATLAS_DDL_TYPE_RAIDS] = {
 			"BlackwingLair",
-			"BlackrockSpireLower",
-			"BlackrockSpireUpper",
 			"EmeraldSanctum", -- TurtleWOW 1.17.0
 			"LowerKara", -- -- TurtleWOW 1.17.0
 			"MoltenCore",
@@ -307,7 +306,7 @@ Atlas_DropDownLayouts = {
 			"FourDragons",
 			"LordKazzak",
 			-- TurtleWOW
-			"Turtlhu",
+			--"Turtlhu",
 			"Nerubian",
 			"Reaver",
 			"Ostarius",
@@ -393,7 +392,7 @@ Atlas_DropDownLayouts = {
 			"FourDragons",
 			"LordKazzak",
 			-- TurtleWOW
-			"Turtlhu",
+			--"Turtlhu",
 			"Nerubian",
 			"Reaver",
 			"Ostarius",
@@ -547,7 +546,7 @@ Atlas_DropDownLayouts = {
 			"FourDragons",
 			"LordKazzak",
 			-- TurtleWOW
-			"Turtlhu",
+			--"Turtlhu",
 			"Nerubian",
 			"Reaver",
 			"Ostarius",

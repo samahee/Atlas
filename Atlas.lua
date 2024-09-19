@@ -49,7 +49,7 @@ local DefaultAtlasOptions = {
 	["AtlasZone"] = 1;
 	["AtlasAlpha"] = 1.0;
 	["AtlasLocked"] = false;
-	["AtlasAutoSelect"] = true;
+	["AtlasAutoSelect"] = false;
 	["AtlasButtonPosition"] = 336;
 	["AtlasButtonRadius"] = 78;
 	["AtlasButtonShown"] = true;
@@ -278,7 +278,7 @@ function Atlas_OnLoad()
 
 	--Allows Atlas to be closed with the Escape key
 	tinsert(UISpecialFrames, "AtlasFrame");
-	
+	tinsert(UISpecialFrames, "AtlasOptionsFrame");
 	--Dragging involves some special registration
 	AtlasFrame:RegisterForDrag("LeftButton");
 	

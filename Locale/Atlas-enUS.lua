@@ -1045,6 +1045,7 @@ Dependencies: AceLibrary, AceLocale-2.2
 		-- HateforgeQuarry TurtleWOW
 		["High Foreman Bargul Blackhammer"] = true;
 		["Engineer Figgles"] = true;
+		["Hateforge Chemistry Documents"] = true,
 		["Corrosis"] = true;
 		["Hatereaver Annihilator"] = true;
 		["Hargesh Doomcaller"] = true;
@@ -1071,6 +1072,7 @@ Dependencies: AceLibrary, AceLocale-2.2
 		["Aszosh Grimflame"] = true;
 		["Tham'Grarr"] = true;
 		["Black Bride"] = true;
+		["Tome of Arcane Intricacies and Magical Phenomenon IX"] = true,
 		["Damian"] = true;
 		["Volkan Cruelblade"] = true;
 		["Arc'tiras"] = true;
@@ -1078,6 +1080,8 @@ Dependencies: AceLibrary, AceLocale-2.2
 		-- GilneasCity TurtleWOW 1.17.0
 		["Matthias Holtz"] = true;
 		["Packmaster Ragetooth"] = true;
+		["Dawnstone Plans"] = true,
+		["Manuscript of Hydromancy II"] = true,
 		["Judge Sutherland"] = true;
 		["Dustivan Blackcowl"] = true;
 		["Marshal Magnus Greystone"] = true;
@@ -1086,6 +1090,12 @@ Dependencies: AceLibrary, AceLocale-2.2
 		["Genn Greymane"] = true;
 		-- LowerKara TurtleWOW 1.17.0
 		["Master Blacksmith Rolfen"] = true;
+		["Engraved Golden Bracelet"] = true,
+		["Comfortable Pillow"] = true,
+		["Duke Rothlen"] = true,
+		["Obsidian Rod"]  = true,
+		["Lord Ebonlocke"] = true,
+		["Councilman Kyleson"] = true,
 		["Brood Queen Araxxna"] = true;
 		["Grizikil"] = true;
 		["Clawlord Howlfang"] = true;

@@ -133,12 +133,12 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Continent = AL["Kalimdor"];
 		{ BLUE.."A) "..AL["Entrance"] };
-		{ GREY.."1) "..AL["Kalanar's Strongbox"], OBJECT, 2010860 };
-		{ GREY.."2) "..AL["Grovetender Engryss"], NPC, 92107 };
-		{ GREY.."3) "..AL["Keeper Ranathos"], NPC, 92109 };
-		{ GREY.."4) "..AL["High Priestess A'lathea"], NPC, 92108 };
-		{ GREY.."5) "..AL["Fenektis the Deceiver"], NPC, 92111 };
-		{ GREY.."6) "..AL["Master Raxxieth"], NPC, 92110 };
+		{ INDENT..GREY.."a) "..AL["Kalanar's Strongbox"], OBJECT, 2010860 };
+		{ GREY.."1) "..AL["Grovetender Engryss"], NPC, 92107 };
+		{ GREY.."2) "..AL["Keeper Ranathos"], NPC, 92109 };
+		{ GREY.."3) "..AL["High Priestess A'lathea"], NPC, 92108 };
+		{ GREY.."4) "..AL["Fenektis the Deceiver"], NPC, 92111 };
+		{ GREY.."5) "..AL["Master Raxxieth"], NPC, 92110 };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 	};
 	--HateforgeQuarry TurtleWOW
@@ -151,9 +151,9 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Continent = AL["Eastern Kingdoms"];
 		{ BLUE.."A) "..AL["Entrance"] };
-		{ BLUE.."B - Lower, C - Upper" };
 		{ GREY.."1) "..AL["High Foreman Bargul Blackhammer"], NPC, 60735 };
 		{ GREY.."2) "..AL["Engineer Figgles"], NPC, 60736 };
+		{ INDENT..GREY.."a) "..AL["Hateforge Chemistry Documents"] };
 		{ GREY.."3) "..AL["Corrosis"], NPC, 60829 };
 		{ GREY.."4) "..AL["Hatereaver Annihilator"], NPC, 60734 };
 		{ GREY.."5) "..AL["Hargesh Doomcaller"], NPC, 60737 };
@@ -169,7 +169,6 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Continent = AL["Eastern Kingdoms"];
 		{ BLUE.."A) "..AL["Entrance"] };
-		{ BLUE.."B) " };
 		{ GREY.."1) "..AL["Marrowspike"], NPC, 91920 };
 		{ GREY.."2) "..AL["Hivaxxis"], NPC, 91929 };
 		{ GREY.."3) "..AL["Corpsemuncher"], NPC, 91917 };
@@ -177,7 +176,8 @@ AtlasMaps = {
 		{ GREY.."5) "..AL["Archlich Enkhraz"], NPC, 91916 };
 		{ GREY.."6) "..AL["Commander Andreon"], NPC, 91919 }; -- Commander Andreon not Commander Anderson. AtlasLoot name misstake
 		{ GREY.."7) "..AL["Alarus"], NPC, 91928 };
-		{ GREY..INDENT..AL["Half-Buried Treasure Chest"], OBJECT, 379545 };
+		{ GREY.."8) "..AL["Half-Buried Treasure Chest"], OBJECT, 379545 };
+		{ GREY..INDENT..AL["Trash Mobs"] };
 	};
 	--CavernsOfTimeBlackMorass TurtleWOW
 	CavernsOfTimeBlackMorass = {
@@ -189,15 +189,14 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Continent = AL["Kalimdor"];
 		{ BLUE.."A) "..AL["Entrance"] };
-		{ BLUE.."B) " };
+		{ BLUE.."B) "..AL["Connection"] };
 		{ GREY.."1) "..AL["Chronar"], NPC, 65113 };
-		{ GREY.."removed) "..AL["Harbinger Aph'ygth"], NPC, 65114 };
 		{ GREY.."2) "..AL["Epidamu"], NPC, 61575 };
 		{ GREY.."3) "..AL["Drifting Avatar of Sand"], NPC, 61316 };
 		{ GREY.."4) "..AL["Time-Lord Epochronos"], NPC, 65116 };
 		{ GREY.."5) "..AL["Mossheart"], NPC, 65124 };
-		{ GREY.."7) "..AL["Rotmaw"], NPC, 65122 };
 		{ GREY.."6) "..AL["Antnormi"], NPC, 65125 };
+		{ GREY.."7) "..AL["Rotmaw"], NPC, 65122 };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 	};
 	--StormwindVault TurtleWOW
@@ -210,10 +209,10 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Continent = AL["Eastern Kingdoms"];
 		{ BLUE.."A) "..AL["Entrance"] };
-		{ BLUE.."B) " };
 		{ GREY.."1) "..AL["Aszosh Grimflame"], NPC, 80853 };
 		{ GREY.."2) "..AL["Tham'Grarr"], NPC, 80852 };
 		{ GREY.."3) "..AL["Black Bride"], NPC, 80850 };
+		{ GREY..INDENT..AL["Tome of Arcane Intricacies and Magical Phenomenon IX"]};
 		{ GREY.."4) "..AL["Damian"], NPC, 80854 };
 		{ GREY.."5) "..AL["Volkan Cruelblade"], NPC, 80851 };
 		{ GREY.."6) "..AL["Arc'tiras"], NPC, 93107 };
@@ -228,8 +227,11 @@ AtlasMaps = {
 		MinLevel = "43";
 		PlayerLimit = "5";
 		Continent = AL["Eastern Kingdoms"];
+		{ BLUE.."A) "..AL["Entrance"] };
 		{ GREY.."1) "..AL["Matthias Holtz"], NPC, 61419 };
 		{ GREY.."2) "..AL["Packmaster Ragetooth"], NPC, 61420 };
+		{ INDENT..GREY.."a) "..AL["Dawnstone Plans"]};
+		{ INDENT..GREY.."b) "..AL["Manuscript of Hydromancy II"]};
 		{ GREY.."3) "..AL["Judge Sutherland"], NPC, 61421 };
 		{ GREY.."4) "..AL["Dustivan Blackcowl"], NPC, 61422 };
 		{ GREY.."5) "..AL["Marshal Magnus Greystone"], NPC, 61423 };
@@ -247,11 +249,19 @@ AtlasMaps = {
 		MinLevel = "58";
 		PlayerLimit = "10";
 		Continent = AL["Eastern Kingdoms"];
+		{ BLUE.."A) "..AL["Entrance"] };
+		{ BLUE.."B) "..AL["Connection"] };
 		{ GREY.."1) "..AL["Master Blacksmith Rolfen"], NPC, 61319 };
+		{ GREY..INDENT.."a) "..AL["Engraved Golden Bracelet"] };
+		{ GREY..INDENT.."b) "..AL["Comfortable Pillow"] };
 		{ GREY.."2) "..AL["Brood Queen Araxxna"], NPC, 61221 };
 		{ GREY.."3) "..AL["Grizikil"], NPC, 61224 };
+		{ GREY..INDENT.."c) "..AL["Councilman Kyleson"] };
 		{ GREY.."4) "..AL["Clawlord Howlfang"], NPC, 61223 };
 		{ GREY.."5) "..AL["Lord Blackwald II"], NPC, 61222 };
+		{ GREY..INDENT.."d) "..AL["Lord Ebonlocke"] };
+		{ GREY..INDENT.."e) "..AL["Obsidian Rod"] };
+		{ GREY..INDENT.."f) "..AL["Duke Rothlen"] };
 		{ GREY.."6) "..AL["Moroes"], NPC, 61226 };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 		{ GREY..INDENT..AL["LKH Enchants"] };
