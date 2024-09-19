@@ -1,4 +1,7 @@
 AddOn: Atlas
+Version: 1.13.3
+Last Update: 19.09.2024
+Better maps for Turtle WoW custom dungeons and raids
 
 Version: 1.13.2
 Last Update: 02(February).02(2nd).2024
