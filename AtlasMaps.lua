@@ -144,7 +144,7 @@ AtlasMaps = {
 	--HateforgeQuarry TurtleWOW
 	HateforgeQuarry = {
 		ZoneName = { AL["Hateforge Quarry"],  };
-		Acronym = "HQ";
+		Acronym = "HFQ";
 		Location = { AL["Burning Steppes"], 46 };
 		LevelRange = "52-60";
 		MinLevel = "48";
@@ -162,7 +162,7 @@ AtlasMaps = {
 	--KarazhanCrypt TurtleWOW
 	KarazhanCrypt = {
 		ZoneName = { AL["Karazhan Crypt"],  };
-		Acronym = "KC";
+		Acronym = "Kara Crypt";
 		Location = { AL["Deadwind Pass"], 41 }; -- ["Deadwind Pass"], 41 -- ["Burning Steppes"], 46
 		LevelRange = "58-60";
 		MinLevel = "58";
@@ -1104,7 +1104,7 @@ AtlasMaps = {
 	};
 	TheDeadmines = {
 		ZoneName = { AL["The Deadmines"], 1581 };
-		Acronym = "VC";
+		Acronym = "DM";
 		Location = { AL["Westfall"], 40 };
 		LevelRange = "17-24";
 		MinLevel = "10";
@@ -1293,7 +1293,7 @@ AtlasMaps = {
 	GnomereganEnt = {
 		ZoneName = { AL["Gnomeregan"].." ("..AL["Entrance"]..")", 133 };
 		Location = { AL["Dun Morogh"], 1 };
-		Acronym = "Gnome";
+		Acronym = "Gnomer";
 		Continent = AL["Eastern Kingdoms"];
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ BLUE..INDENT..AL["Meeting Stone"] };
