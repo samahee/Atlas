@@ -1079,7 +1079,7 @@ Atlas_updater:SetScript("OnEvent", function()
             if remoteversion > localversion then
                 Atlas_updateavailable = remoteversion
                 if not alreadyshown then
-                    DEFAULT_CHAT_FRAME:AddMessage("|cffbe5eff[Atlas]|r New version available! https://forum.turtle-wow.org/viewtopic.php?t=7958")
+                    DEFAULT_CHAT_FRAME:AddMessage("|cffbe5eff[Atlas]|r New version available! https://github.com/Otari98/Atlas")
                     alreadyshown = true
                 end
             end
@@ -1098,7 +1098,7 @@ Atlas_updater:SetScript("OnEvent", function()
                     if remoteversion > localversion then
                         Atlas_updateavailable = remoteversion
                         if not alreadyshown then
-                            DEFAULT_CHAT_FRAME:AddMessage("|cffbe5eff[Atlas]|r New version available! https://forum.turtle-wow.org/viewtopic.php?t=7958")
+                            DEFAULT_CHAT_FRAME:AddMessage("|cffbe5eff[Atlas]|r New version available! https://github.com/Otari98/Atlas")
                             alreadyshown = true
                         end
                     end
@@ -1119,7 +1119,7 @@ Atlas_updater:SetScript("OnEvent", function()
 
     if event == "PLAYER_ENTERING_WORLD" then
       if not alreadyshown and localversion < remoteversion then
-        DEFAULT_CHAT_FRAME:AddMessage("|cffbe5eff[Atlas]|r New version available! https://forum.turtle-wow.org/viewtopic.php?t=7958")
+        DEFAULT_CHAT_FRAME:AddMessage("|cffbe5eff[Atlas]|r New version available! https://github.com/Otari98/Atlas")
         Atlas_updateavailable = localversion
         alreadyshown = true
       end
