@@ -1264,6 +1264,7 @@ Dependencies: AceLibrary, AceLocale-2.2
 		["Dire Maul (West)"] = true;
 		["Dire Maul (North)"] = true;
 		["Dun Morogh"] = true;
+		["Dun Agrath"] = true;
 		["Durotar"] = true;
 		["Duskwood"] = true;
 		["Dustwallow Marsh"] = true;
@@ -1288,6 +1289,7 @@ Dependencies: AceLibrary, AceLocale-2.2
 		["The Hinterlands"] = true;
 		["Hyjal"] = true;
 		["Ironforge"] = true;
+		["Ironforge Airfields"] = true,
 		["Kalimdor"] = true;
 		["Karazhan"] = true; -- TurtleWOW
 		["Karazhan Crypt"] = true; -- TurtleWOW
@@ -1330,6 +1332,7 @@ Dependencies: AceLibrary, AceLocale-2.2
 		["Temple of Ahn'Qiraj"] = true;
 		["The Temple of Atal'Hakkar"] = true;
 		["Theramore Isle"] = true;
+		["Thalassian Highlands"] = true,
 		["Thousand Needles"] = true;
 		["Thunder Bluff"] = true;
 		["Tirisfal Glades"] = true;
@@ -1346,6 +1349,20 @@ Dependencies: AceLibrary, AceLocale-2.2
 		["Zul'Farrak"] = true;
 		["Zul'Gurub"] = true;
 
+		["Caelan's Rest"] = true;
+		["Lapidis Isle"] = true;
+		["Ravenshire"] = true;
+		["Tel Co. Basecamp"] = true;
+		["Bael Hardul"] = true;
+		["Nordanaar"] = true;
+		["Tel'Abim"] = true;
+		["Gillijim's Isle"] = true;
+		["Maul'ogg Refuge"] = true;
+		["Stillward Church"] = true;
+		["Mudsprocket"] = true;
+		["Moomoo Grove"] = true;
+		["Blood Ring Arena"] = true;
+		["Sunnyglade Valley"] = true;
 		-- Burning Crusade
 		
 		-- Subzones used for displaying instances.

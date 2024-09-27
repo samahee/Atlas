@@ -57,7 +57,7 @@ local DefaultAtlasOptions = {
 	["AtlasType"] = 1;
 	["AtlasAcronyms"] = true;
 	["AtlasScale"] = 1.0;
-	["AtlasClamped"] = true;
+	["AtlasClamped"] = false;
 	["AtlasSortBy"] = 1;
 };
 

@@ -136,6 +136,7 @@ Atlas_DropDownLayouts = {
 			"Reaver",
 			"Ostarius",
 			"Concavius",
+			"CowKing",
 		},
 		[GREN..ATLAS_DDL_TYPE_ENTRANCE] = {
 			"BlackfathomDeepsEnt",
@@ -226,6 +227,7 @@ Atlas_DropDownLayouts = {
 			"Reaver",
 			"Ostarius",
 			"Concavius",
+			"CowKing",
 		},
 		[GREN..ATLAS_DDL_TYPE_ENTRANCE] = {
 			"BlackfathomDeepsEnt",
@@ -311,6 +313,7 @@ Atlas_DropDownLayouts = {
 			"Reaver",
 			"Ostarius",
 			"Concavius",
+			"CowKing",
 		},
 		[GREN..ATLAS_DDL_TYPE_ENTRANCE] = {
 			"BlackfathomDeepsEnt",
@@ -397,6 +400,7 @@ Atlas_DropDownLayouts = {
 			"Reaver",
 			"Ostarius",
 			"Concavius",
+			"CowKing",
 		},
 		[GREN..ATLAS_DDL_TYPE_ENTRANCE] = {
 			"BlackfathomDeepsEnt",
@@ -551,6 +555,7 @@ Atlas_DropDownLayouts = {
 			"Reaver",
 			"Ostarius",
 			"Concavius",
+			"CowKing",
 		},
 		[GREN..ATLAS_DDL_TYPE_ENTRANCE] = {
 			"BlackfathomDeepsEnt",
