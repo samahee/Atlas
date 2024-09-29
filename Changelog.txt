@@ -1,6 +1,6 @@
 AddOn: Atlas
 
-Version 1.13.4
+Version 1.13.5
 Last Update 29.09.2024
 Added map for transport routes (boats, zeppelins)
 
