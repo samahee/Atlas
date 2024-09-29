@@ -1906,6 +1906,29 @@ AtlasMaps = {
 		{ GREY.."21) "..AL["Gadgetzan"]..", ".._RED..AL["Tanaris"], ZONE, 440 };
 		{ GREY.."22) "..AL["Tel Co. Basecamp"]..", ".._RED..AL["Tel'Abim"], ZONE, 440 };
 	};
+	TransportRoutes = {
+		ZoneName = { AL["Transport Routes"]};
+		Location = { AL["Azeroth"]};
+		{ GREY.."1) "..AL["Rut'Theran Village"]..", "..BLUE..AL["Teldrassil"], ZONE, 141 };
+		{ GREY.."2) "..AL["Auberdine"]..", "..BLUE..AL["Darkshore"], ZONE, 618 };
+		{ GREY.."7) "..AL["Feathermoon Stronghold"]..", "..BLUE..AL["Feralas"], ZONE, 331 };
+		{ GREY.."8) "..AL["Theramore Isle"]..", "..BLUE..AL["Dustwallow Marsh"], ZONE, 14 };
+		{ GREY.."9) "..AL["Alah'Thalas"]..", "..BLUE..AL["Thalassian Highlands"], ZONE, 406 };
+		{ GREY.."12) "..AL["Menethil Harbor"]..", "..BLUE..AL["Wetlands"], ZONE, 405 };
+		{ GREY.."13) "..AL["Ironforge"]..", "..BLUE..AL["Dun Morogh"], ZONE, 215 };
+		{ GREY.."15) "..AL["Stormwind City"]..", "..BLUE..AL["Elwynn Forest"], ZONE, 15 };
+		{ "" };	
+		{ GREY.."3) "..AL["Orgrimmar"]..", ".._RED..AL["The Barrens"], ZONE, 440 };
+		{ GREY.."4) "..AL["Sparkwater Port"]..", ".._RED..AL["The Barrens"], ZONE, 361 };
+		{ GREY.."6) "..AL["Thunder Bluff"]..", ".._RED..AL["Mulgore"], ZONE, 16 };
+		{ GREY.."10) "..AL["Undercity"]..", ".._RED..AL["Tirisfal Glades"], ZONE, 17 };
+		{ GREY.."11) "..AL["Revantusk Village"]..", ".._RED..AL["The Hinterlands"], ZONE, 17 };
+		{ GREY.."14) "..AL["Kargath"]..", ".._RED..AL["Badlands"], ZONE, 17 };
+		{ GREY.."16) "..AL["Grom'Gol Base Camp"]..", ".._RED..AL["Stranglethorn Vale"], ZONE, 440 };
+		{ "" };	
+		{ GREY.."5) "..AL["Ratchet"]..", "..ORNG..AL["The Barrens"], ZONE, 331 };
+		{ GREY.."17) "..AL["Booty Bay"]..", "..ORNG..AL["Stranglethorn Vale"], ZONE, 357 };
+	};
 
 --************************************************
 -- HORDE LEVELING GUIDE

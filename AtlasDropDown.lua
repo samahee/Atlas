@@ -36,6 +36,7 @@ Atlas_DropDownLayouts_Order = {
 		[5] = GREN..ATLAS_DDL_BGS;
 		[6] = GREN..ATLAS_DDL_DUNGEON_LOCATIONS;
 		[7] = GREN..ATLAS_DDL_FLIGHT_PATHS;
+		[8] = ATLAS_DDL_TRANSPORT_ROUTES;
 	};
 	[ATLAS_DDL_PARTYSIZE] = {
 		[1] = ATLAS_DDL_PARTYSIZE_5;
@@ -47,6 +48,7 @@ Atlas_DropDownLayouts_Order = {
 		[7] = GREN..ATLAS_DDL_BGS;
 		[8] = GREN..ATLAS_DDL_DUNGEON_LOCATIONS;
 		[9] = GREN..ATLAS_DDL_FLIGHT_PATHS;
+		[10] = ATLAS_DDL_TRANSPORT_ROUTES;
 	};
 	[ATLAS_DDL_TYPE] = {
 		[1] = ATLAS_DDL_TYPE_DUNGEONS;
@@ -56,6 +58,7 @@ Atlas_DropDownLayouts_Order = {
 		[5] = GREN..ATLAS_DDL_BGS;
 		[6] = GREN..ATLAS_DDL_DUNGEON_LOCATIONS;
 		[7] = GREN..ATLAS_DDL_FLIGHT_PATHS;
+		[8] = ATLAS_DDL_TRANSPORT_ROUTES;
 	};
 	[ATLAS_DDL_ALL] = {
 		[1] = ATLAS_DDL_ALL_MENU;
@@ -166,6 +169,9 @@ Atlas_DropDownLayouts = {
 			"FPHordeEast",
 			"FPHordeWest",
 		},
+		[ATLAS_DDL_TRANSPORT_ROUTES] = {
+			"TransportRoutes"
+		},
 	},
 	[ATLAS_DDL_PARTYSIZE] = {
 		[ATLAS_DDL_PARTYSIZE_5] = {
@@ -257,6 +263,9 @@ Atlas_DropDownLayouts = {
 			"FPHordeEast",
 			"FPHordeWest",
 		},
+		[ATLAS_DDL_TRANSPORT_ROUTES] = {
+			"TransportRoutes"
+		},
 	},
 	[ATLAS_DDL_TYPE] = {
 		[ATLAS_DDL_TYPE_DUNGEONS] = {
@@ -342,6 +351,9 @@ Atlas_DropDownLayouts = {
 			"FPAllianceWest",
 			"FPHordeEast",
 			"FPHordeWest",
+		},
+		[ATLAS_DDL_TRANSPORT_ROUTES] = {
+			"TransportRoutes"
 		},
 	},
 	[ATLAS_DDL_LEVELING_GUIDE] = {

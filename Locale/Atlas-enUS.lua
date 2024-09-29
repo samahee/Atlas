@@ -92,7 +92,7 @@ ATLAS_DDL_LEVELING_GUIDE_ALLIANCE1 = "Alliance Leveling Guide Part 1";
 ATLAS_DDL_LEVELING_GUIDE_ALLIANCE2 = "Alliance Leveling Guide Part 2";
 ATLAS_DDL_LEVELING_GUIDE_HORDE1 = "Horde Leveling Guide Part 1";
 ATLAS_DDL_LEVELING_GUIDE_HORDE2 = "Horde Leveling Guide Part 2";
-
+ATLAS_DDL_TRANSPORT_ROUTES = "Transport Routes";
 ATLAS_INSTANCE_BUTTON = "Instance";
 ATLAS_ENTRANCE_BUTTON = "Entrance";
 ATLAS_SEARCH_UNAVAIL = "Search Unavailable";
@@ -106,7 +106,9 @@ AL:RegisterTranslations("enUS", function() return {
 	--************************************************
 	-- Zone Names, Acronyms, and Common Strings
 	--************************************************
-	
+	["Transport Routes"] = true;
+	["Azeroth"] = true;
+	["Sparkwater Port"] = true;
 	--Common strings
 	["Atlas Options"] = true;
 	--Colors
