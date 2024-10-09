@@ -1054,7 +1054,7 @@ Atlas_updater:SetScript("OnEvent", function()
 	end
   end)
 ]]
-
+--[[
 --Update announcing code taken from pfUI
 local major, minor, fix = Atlas_strsplit(".", tostring(GetAddOnMetadata("Atlas", "Version")))
 
@@ -1132,3 +1132,4 @@ Atlas_updater:SetScript("OnEvent", function()
       end
     end
   end)
+]]
