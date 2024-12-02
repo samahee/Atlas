@@ -99,7 +99,7 @@ function TitanPanelRightClickMenu_PrepareAtlasMenu()
 	TitanPanelRightClickMenu_AddToggleLabelText(TITAN_ATLAS_ID);
 	TitanPanelRightClickMenu_AddToggleColoredText(TITAN_ATLAS_ID);
 	
-	info = {};
+	local info = {};
 	info.text = ATLAS_OPTIONS_SHOWMAPNAME;
 	info.func = TitanPanelAtlasButton_MapNameToggle;
 	info.checked = TitanGetVar(TITAN_ATLAS_ID, "ShowMapName");

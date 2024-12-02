@@ -123,16 +123,13 @@ end
 
 
 function AtlasOptionsFrameDropDownCats_Initialize()
-
-	local i;
 	for i = 1, getn(Atlas_DropDownLayouts_Order), 1 do
-		info = {
+		local info = {
 			text = Atlas_DropDownLayouts_Order[i];
 			func = AtlasOptionsFrameDropDownCats_OnClick;
 		};
 		UIDropDownMenu_AddButton(info);
 	end
-	
 end
 
 

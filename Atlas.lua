@@ -766,7 +766,7 @@ end
 --Called whenever an item in the main dropdown menu is clicked
 --Sets the newly selected map as current and refreshes the frame
 function AtlasFrameDropDown_OnClick()
-	i = this:GetID();
+	local i = this:GetID();
 	UIDropDownMenu_SetSelectedID(AtlasFrameDropDown, i);
 	AtlasOptions.AtlasZone = i;
 	Atlas_Refresh();
