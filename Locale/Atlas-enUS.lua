@@ -87,11 +87,6 @@ ATLAS_DDL_TYPE_ENTRANCE = "Entrances";
 ATLAS_DDL_BGS = "Battlegrounds";
 ATLAS_DDL_DUNGEON_LOCATIONS = "Dungeon Locations";
 ATLAS_DDL_FLIGHT_PATHS = "Flight Path Maps";
-ATLAS_DDL_LEVELING_GUIDE = "Leveling Guide";
-ATLAS_DDL_LEVELING_GUIDE_ALLIANCE1 = "Alliance Leveling Guide Part 1";
-ATLAS_DDL_LEVELING_GUIDE_ALLIANCE2 = "Alliance Leveling Guide Part 2";
-ATLAS_DDL_LEVELING_GUIDE_HORDE1 = "Horde Leveling Guide Part 1";
-ATLAS_DDL_LEVELING_GUIDE_HORDE2 = "Horde Leveling Guide Part 2";
 ATLAS_DDL_TRANSPORT_ROUTES = "Transport Routes";
 ATLAS_INSTANCE_BUTTON = "Instance";
 ATLAS_ENTRANCE_BUTTON = "Entrance";
@@ -781,14 +776,6 @@ AL:RegisterTranslations("enUS", function() return {
 	["Zoram'gar Outpost"] = true;
 	["South of the path along Lake Elune'ara"] = true;
 	["West of the path to Timbermaw Hold"] = true;
-	["Tauren Leveling Guide"] = true;
-	["Undead Leveling Guide"] = true;
-	["Troll/Orc Leveling Guide"] = true; 
-	["Horde Leveling Guide"] = true;
-	["Human Leveling Guide"] = true;
-	["Night Elf Leveling Guide"] = true;
-	["Gnome/Dwarf Leveling Guide"] = true; 
-	["Alliance Leveling Guide"] = true;
 	--[[
 Name: Babble-Boss-2.2
 Revision: 20004

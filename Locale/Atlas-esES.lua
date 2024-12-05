@@ -102,7 +102,6 @@ ATLAS_DDL_TYPE = "Tipo";
 ATLAS_DDL_TYPE_INSTANCE_AK = "Mazmorras A-K";
 ATLAS_DDL_TYPE_INSTANCE_MZ = "Mazmorras M-Z";
 ATLAS_DDL_TYPE_ENTRANCE = "Entradas";
-ATLAS_DDL_LEVELING_GUIDE = "Guía para Subir Nivel";
 ATLAS_DDL_ALL = "Todos";
 
 ATLAS_INSTANCE_BUTTON = "Mazmorra";
@@ -782,13 +781,5 @@ AL:RegisterTranslations("esES", function() return {
 	["Zoram'gar Outpost"] = "Avanzada de Zoram'gar";
 	["South of the path along Lake Elune'ara"] = "Sur de la senda a lo largo del Lago Elune'ara";
 	["West of the path to Timbermaw Hold"] = "Oeste de la senda a Bastión de los Fauces de Madera";
-	["Tauren Leveling Guide"] = "Guía de Subir Nivel para Tauren";
-	["Undead Leveling Guide"] = "Guía de Subir Nivel para No-muerto";
-	["Troll/Orc Leveling Guide"] = "Guía de Subir Nivel para Trol/Orco"; 
-	["Horde Leveling Guide"] = "Guía de Subir Nivel para la Horda";
-	["Human Leveling Guide"] = "Guía de Subir Nivel para Humano";
-	["Night Elf Leveling Guide"] = "Guía de Subir Nivel para Elfo de la Noche";
-	["Gnome/Dwarf Leveling Guide"] = "Guía de Subir Nivel para Gnomo/Enano"; 
-	["Alliance Leveling Guide"] = "Guía de Subir Nivel para la Alianza";
 }
 end)

@@ -68,11 +68,6 @@ if GetLocale() == "ruRU" then
 	ATLAS_DDL_BGS = "Поля боя";
 	ATLAS_DDL_DUNGEON_LOCATIONS = "Карта подземелий";
 	ATLAS_DDL_FLIGHT_PATHS = "Маршруты полётов";
-	ATLAS_DDL_LEVELING_GUIDE = "Руководство по разравитию";
-	ATLAS_DDL_LEVELING_GUIDE_ALLIANCE1 = "Руководство по разравитию Альянса Часть 1";
-	ATLAS_DDL_LEVELING_GUIDE_ALLIANCE2 = "Руководство по разравитию Альянса Часть 2";
-	ATLAS_DDL_LEVELING_GUIDE_HORDE1 = "Руководство по разравитию Орды Часть 1";
-	ATLAS_DDL_LEVELING_GUIDE_HORDE2 = "Руководство по разравитию Орды Часть 2";
 	
 	ATLAS_INSTANCE_BUTTON = "Подземелье";
 	ATLAS_ENTRANCE_BUTTON = "Вход";
@@ -737,12 +732,4 @@ AL:RegisterTranslations("ruRU", function() return {
 	["Zoram'gar Outpost"] = "Форт Зорам'Гар";
 	["South of the path along Lake Elune'ara"] = "К югу от пути вдоль Озера Элуне'ара";
 	["West of the path to Timbermaw Hold"] = "К западу от пути к Крепости Древобрюхов";
-	["Tauren Leveling Guide"] = "Руководство по разравитию Таурена";
-	["Undead Leveling Guide"] = "Руководство по разравитию Нежити";
-	["Troll/Orc Leveling Guide"] = "Руководство по разравитию Тролля/Орка"; 
-	["Horde Leveling Guide"] = "Руководство по разравитию Орды";
-	["Human Leveling Guide"] = "Руководство по разравитию Человека";
-	["Night Elf Leveling Guide"] = "Руководство по разравитию Ночного эльфа";
-	["Gnome/Dwarf Leveling Guide"] = "Руководство по разравитию Гнома/Дворфа"; 
-	["Alliance Leveling Guide"] = "Руководство по разравитию Альянса";
 } end)
