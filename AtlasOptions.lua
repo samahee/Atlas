@@ -22,7 +22,7 @@
 --]]
 
 function AtlasOptions_Toggle()
-	if(AtlasOptionsFrame:IsVisible()) then
+	if (AtlasOptionsFrame:IsVisible()) then
 		AtlasOptionsFrame:Hide();
 	else
 		AtlasOptionsFrame:Show();
@@ -30,7 +30,7 @@ function AtlasOptions_Toggle()
 end
 
 function AtlasOptions_AutoSelectToggle()
-	if(AtlasOptions.AtlasAutoSelect) then
+	if (AtlasOptions.AtlasAutoSelect) then
 		AtlasOptions.AtlasAutoSelect = false;
 	else
 		AtlasOptions.AtlasAutoSelect = true;
@@ -39,7 +39,7 @@ function AtlasOptions_AutoSelectToggle()
 end
 
 function AtlasOptions_RightClickToggle()
-	if(AtlasOptions.AtlasRightClick) then
+	if (AtlasOptions.AtlasRightClick) then
 		AtlasOptions.AtlasRightClick = false;
 	else
 		AtlasOptions.AtlasRightClick = true;
@@ -48,7 +48,7 @@ function AtlasOptions_RightClickToggle()
 end
 
 function AtlasOptions_AcronymsToggle()
-	if(AtlasOptions.AtlasAcronyms) then
+	if (AtlasOptions.AtlasAcronyms) then
 		AtlasOptions.AtlasAcronyms = false;
 	else
 		AtlasOptions.AtlasAcronyms = true;
@@ -58,7 +58,7 @@ function AtlasOptions_AcronymsToggle()
 end
 
 function AtlasOptions_ClampedToggle()
-	if(AtlasOptions.AtlasClamped) then
+	if (AtlasOptions.AtlasClamped) then
 		AtlasOptions.AtlasClamped = false;
 	else
 		AtlasOptions.AtlasClamped = true;
@@ -69,7 +69,7 @@ function AtlasOptions_ClampedToggle()
 end
 
 function AtlasOptions_CtrlToggle()
-	if(AtlasOptions.AtlasCtrl) then
+	if (AtlasOptions.AtlasCtrl) then
 		AtlasOptions.AtlasCtrl = false;
 	else
 		AtlasOptions.AtlasCtrl = true;
@@ -79,7 +79,7 @@ function AtlasOptions_CtrlToggle()
 end
 
 function AtlasOptions_OnLoad()
-	UIPanelWindows['AtlasOptionsFrame'] = {area = 'center', pushable = 0};
+	UIPanelWindows['AtlasOptionsFrame'] = { area = 'center', pushable = 0 };
 end
 
 function AtlasOptions_Init()
@@ -105,40 +105,37 @@ function AtlasOptions_ResetPosition()
 end
 
 function AtlasOptions_SetupSlider(text, mymin, mymax, step)
-	getglobal(this:GetName().."Text"):SetText(text.." ("..this:GetValue()..")");
+	getglobal(this:GetName() .. "Text"):SetText(text .. " (" .. this:GetValue() .. ")");
 	this:SetMinMaxValues(mymin, mymax);
-	getglobal(this:GetName().."Low"):SetText(mymin);
-	getglobal(this:GetName().."High"):SetText(mymax);
+	getglobal(this:GetName() .. "Low"):SetText(mymin);
+	getglobal(this:GetName() .. "High"):SetText(mymax);
 	this:SetValueStep(step);
 end
 
 local function round(num, idp)
-   local mult = 10 ^ (idp or 0);
-   return math.floor(num * mult + 0.5) / mult;
+	local mult = 10 ^ (idp or 0);
+	return math.floor(num * mult + 0.5) / mult;
 end
 
 function AtlasOptions_UpdateSlider(text)
-	getglobal(this:GetName().."Text"):SetText(text.." ("..round(this:GetValue(),2)..")");
+	getglobal(this:GetName() .. "Text"):SetText(text .. " (" .. round(this:GetValue(), 2) .. ")");
 end
-
 
 function AtlasOptionsFrameDropDownCats_Initialize()
 	for i = 1, getn(Atlas_DropDownLayouts_Order), 1 do
 		local info = {
-			text = Atlas_DropDownLayouts_Order[i];
-			func = AtlasOptionsFrameDropDownCats_OnClick;
+			text = Atlas_DropDownLayouts_Order[i],
+			func = AtlasOptionsFrameDropDownCats_OnClick,
 		};
 		UIDropDownMenu_AddButton(info);
 	end
 end
-
 
 function AtlasOptionsFrameDropDownCats_OnShow()
 	UIDropDownMenu_Initialize(AtlasOptionsFrameDropDownCats, AtlasOptionsFrameDropDownCats_Initialize);
 	UIDropDownMenu_SetSelectedID(AtlasOptionsFrameDropDownCats, AtlasOptions.AtlasSortBy);
 	UIDropDownMenu_SetWidth(100, AtlasOptionsFrameDropDownCats);
 end
-
 
 function AtlasOptionsFrameDropDownCats_OnClick()
 	local thisID = this:GetID();

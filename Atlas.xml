@@ -467,7 +467,7 @@
 					</Anchors>
 				</FontString>
 				<FontString inherits="GameFontNormalSmall" text="ATLAS_VERSION">
-					<Color r="0.4" g="0.4" b="0.4"/>
+					<Color r="1" g="1" b="1"/>
 					<Anchors>
 						<Anchor point="TOPRIGHT">
 							<Offset>

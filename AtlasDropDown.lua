@@ -23,49 +23,49 @@
 local GREN = "|cff66cc33"
 
 Atlas_DropDownLayouts_Order = {
-	[1] = ATLAS_DDL_CONTINENT;
-	[2] = ATLAS_DDL_PARTYSIZE;
-	[3] = ATLAS_DDL_TYPE;
+	[1] = ATLAS_DDL_CONTINENT,
+	[2] = ATLAS_DDL_PARTYSIZE,
+	[3] = ATLAS_DDL_TYPE,
 	[ATLAS_DDL_CONTINENT] = {
-		[1] = ATLAS_DDL_CONTINENT_EASTERN;
-		[2] = ATLAS_DDL_CONTINENT_KALIMDOR;
-		[3] = ATLAS_DDL_WORLDBOSSES;
-		[4] = GREN..ATLAS_DDL_TYPE_ENTRANCE;
-		[5] = GREN..ATLAS_DDL_BGS;
-		[6] = GREN..ATLAS_DDL_DUNGEON_LOCATIONS;
-		[7] = GREN..ATLAS_DDL_FLIGHT_PATHS;
-		[8] = ATLAS_DDL_TRANSPORT_ROUTES;
-	};
+		[1] = ATLAS_DDL_CONTINENT_EASTERN,
+		[2] = ATLAS_DDL_CONTINENT_KALIMDOR,
+		[3] = ATLAS_DDL_WORLDBOSSES,
+		[4] = GREN .. ATLAS_DDL_TYPE_ENTRANCE,
+		[5] = GREN .. ATLAS_DDL_BGS,
+		[6] = GREN .. ATLAS_DDL_DUNGEON_LOCATIONS,
+		[7] = GREN .. ATLAS_DDL_FLIGHT_PATHS,
+		[8] = ATLAS_DDL_TRANSPORT_ROUTES,
+	},
 	[ATLAS_DDL_PARTYSIZE] = {
-		[1] = ATLAS_DDL_PARTYSIZE_5;
-		[2] = ATLAS_DDL_PARTYSIZE_10;
-		[3] = ATLAS_DDL_PARTYSIZE_20;
-		[4] = ATLAS_DDL_PARTYSIZE_40;
-		[5] = ATLAS_DDL_WORLDBOSSES;
-		[6] = GREN..ATLAS_DDL_TYPE_ENTRANCE;
-		[7] = GREN..ATLAS_DDL_BGS;
-		[8] = GREN..ATLAS_DDL_DUNGEON_LOCATIONS;
-		[9] = GREN..ATLAS_DDL_FLIGHT_PATHS;
-		[10] = ATLAS_DDL_TRANSPORT_ROUTES;
-	};
+		[1] = ATLAS_DDL_PARTYSIZE_5,
+		[2] = ATLAS_DDL_PARTYSIZE_10,
+		[3] = ATLAS_DDL_PARTYSIZE_20,
+		[4] = ATLAS_DDL_PARTYSIZE_40,
+		[5] = ATLAS_DDL_WORLDBOSSES,
+		[6] = GREN .. ATLAS_DDL_TYPE_ENTRANCE,
+		[7] = GREN .. ATLAS_DDL_BGS,
+		[8] = GREN .. ATLAS_DDL_DUNGEON_LOCATIONS,
+		[9] = GREN .. ATLAS_DDL_FLIGHT_PATHS,
+		[10] = ATLAS_DDL_TRANSPORT_ROUTES,
+	},
 	[ATLAS_DDL_TYPE] = {
-		[1] = ATLAS_DDL_TYPE_DUNGEONS;
-		[2] = ATLAS_DDL_TYPE_RAIDS;
-		[3] = ATLAS_DDL_WORLDBOSSES;
-		[4] = GREN..ATLAS_DDL_TYPE_ENTRANCE;
-		[5] = GREN..ATLAS_DDL_BGS;
-		[6] = GREN..ATLAS_DDL_DUNGEON_LOCATIONS;
-		[7] = GREN..ATLAS_DDL_FLIGHT_PATHS;
-		[8] = ATLAS_DDL_TRANSPORT_ROUTES;
-	};
+		[1] = ATLAS_DDL_TYPE_DUNGEONS,
+		[2] = ATLAS_DDL_TYPE_RAIDS,
+		[3] = ATLAS_DDL_WORLDBOSSES,
+		[4] = GREN .. ATLAS_DDL_TYPE_ENTRANCE,
+		[5] = GREN .. ATLAS_DDL_BGS,
+		[6] = GREN .. ATLAS_DDL_DUNGEON_LOCATIONS,
+		[7] = GREN .. ATLAS_DDL_FLIGHT_PATHS,
+		[8] = ATLAS_DDL_TRANSPORT_ROUTES,
+	},
 	[ATLAS_DDL_ALL] = {
-		[1] = ATLAS_DDL_ALL_MENU;
-		[2] = ATLAS_DDL_WORLDBOSSES;
-		[3] = GREN..ATLAS_DDL_TYPE_ENTRANCE;
-		[4] = GREN..ATLAS_DDL_BGS;
-		[5] = GREN..ATLAS_DDL_DUNGEON_LOCATIONS;
-		[6] = GREN..ATLAS_DDL_FLIGHT_PATHS;
-	};
+		[1] = ATLAS_DDL_ALL_MENU,
+		[2] = ATLAS_DDL_WORLDBOSSES,
+		[3] = GREN .. ATLAS_DDL_TYPE_ENTRANCE,
+		[4] = GREN .. ATLAS_DDL_BGS,
+		[5] = GREN .. ATLAS_DDL_DUNGEON_LOCATIONS,
+		[6] = GREN .. ATLAS_DDL_FLIGHT_PATHS,
+	},
 };
 
 Atlas_DropDownLayouts = {
@@ -118,15 +118,14 @@ Atlas_DropDownLayouts = {
 			"Azuregos",
 			"FourDragons",
 			"LordKazzak",
-			-- TurtleWOW
-			--"Turtlhu",
 			"Nerubian",
 			"Reaver",
 			"Ostarius",
 			"Concavius",
 			"CowKing",
+			"Clackora"
 		},
-		[GREN..ATLAS_DDL_TYPE_ENTRANCE] = {
+		[GREN .. ATLAS_DDL_TYPE_ENTRANCE] = {
 			"BlackfathomDeepsEnt",
 			"BlackrockMountainEnt",
 			"DireMaulEnt",
@@ -138,17 +137,17 @@ Atlas_DropDownLayouts = {
 			"UldamanEnt",
 			"WailingCavernsEnt",
 		},
-		[GREN..ATLAS_DDL_BGS] = {
+		[GREN .. ATLAS_DDL_BGS] = {
 			"AlteracValleyNorth",
 			"AlteracValleySouth",
 			"ArathiBasin",
 			"WarsongGulch",
 		},
-		[GREN..ATLAS_DDL_DUNGEON_LOCATIONS] = {
+		[GREN .. ATLAS_DDL_DUNGEON_LOCATIONS] = {
 			"DLEast",
 			"DLWest",
 		},
-		[GREN..ATLAS_DDL_FLIGHT_PATHS] = {
+		[GREN .. ATLAS_DDL_FLIGHT_PATHS] = {
 			"FPAllianceEast",
 			"FPAllianceWest",
 			"FPHordeEast",
@@ -212,15 +211,14 @@ Atlas_DropDownLayouts = {
 			"Azuregos",
 			"FourDragons",
 			"LordKazzak",
-			-- TurtleWOW
-			--"Turtlhu",
 			"Nerubian",
 			"Reaver",
 			"Ostarius",
 			"Concavius",
 			"CowKing",
+			"Clackora"
 		},
-		[GREN..ATLAS_DDL_TYPE_ENTRANCE] = {
+		[GREN .. ATLAS_DDL_TYPE_ENTRANCE] = {
 			"BlackfathomDeepsEnt",
 			"BlackrockMountainEnt",
 			"DireMaulEnt",
@@ -232,17 +230,17 @@ Atlas_DropDownLayouts = {
 			"UldamanEnt",
 			"WailingCavernsEnt",
 		},
-		[GREN..ATLAS_DDL_BGS] = {
+		[GREN .. ATLAS_DDL_BGS] = {
 			"AlteracValleyNorth",
 			"AlteracValleySouth",
 			"ArathiBasin",
 			"WarsongGulch",
 		},
-		[GREN..ATLAS_DDL_DUNGEON_LOCATIONS] = {
+		[GREN .. ATLAS_DDL_DUNGEON_LOCATIONS] = {
 			"DLEast",
 			"DLWest",
 		},
-		[GREN..ATLAS_DDL_FLIGHT_PATHS] = {
+		[GREN .. ATLAS_DDL_FLIGHT_PATHS] = {
 			"FPAllianceEast",
 			"FPAllianceWest",
 			"FPHordeEast",
@@ -301,15 +299,14 @@ Atlas_DropDownLayouts = {
 			"Azuregos",
 			"FourDragons",
 			"LordKazzak",
-			-- TurtleWOW
-			--"Turtlhu",
 			"Nerubian",
 			"Reaver",
 			"Ostarius",
 			"Concavius",
 			"CowKing",
+			"Clackora"
 		},
-		[GREN..ATLAS_DDL_TYPE_ENTRANCE] = {
+		[GREN .. ATLAS_DDL_TYPE_ENTRANCE] = {
 			"BlackfathomDeepsEnt",
 			"BlackrockMountainEnt",
 			"DireMaulEnt",
@@ -321,17 +318,17 @@ Atlas_DropDownLayouts = {
 			"UldamanEnt",
 			"WailingCavernsEnt",
 		},
-		[GREN..ATLAS_DDL_BGS] = {
+		[GREN .. ATLAS_DDL_BGS] = {
 			"AlteracValleyNorth",
 			"AlteracValleySouth",
 			"ArathiBasin",
 			"WarsongGulch",
 		},
-		[GREN..ATLAS_DDL_DUNGEON_LOCATIONS] = {
+		[GREN .. ATLAS_DDL_DUNGEON_LOCATIONS] = {
 			"DLEast",
 			"DLWest",
 		},
-		[GREN..ATLAS_DDL_FLIGHT_PATHS] = {
+		[GREN .. ATLAS_DDL_FLIGHT_PATHS] = {
 			"FPAllianceEast",
 			"FPAllianceWest",
 			"FPHordeEast",
