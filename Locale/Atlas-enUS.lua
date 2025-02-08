@@ -1065,7 +1065,6 @@ Dependencies: AceLibrary, AceLocale-2.2
 	-- EmeraldSanctum TurtleWOW 1.17.0
 	["Erennius"] = true;
 	["Solnius the Awakener"] = true;
-	["Solnius the Awakener (Page 2)"] = true;
 	["Clawlord Howlfang"] = true;
 	-------------------------------------
 	["Lorgus Jett"] = true;

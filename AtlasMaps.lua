@@ -218,7 +218,8 @@ AtlasMaps = {
 		{ GREY.."4) "..AL["Damian"], NPC, 80854 };
 		{ GREY.."5) "..AL["Volkan Cruelblade"], NPC, 80851 };
 		{ GREY.."6) "..AL["Arc'tiras"], NPC, 93107 };
-		{ GREY.."7) "..AL["Vault Armory Equipment"], OBJECT, 2010867 };
+		{ GREY.."7) "..AL["Vault Armory Equipment"], NPC, -1 };
+		{ GREY..INDENT..AL["Trash Mobs"] };
 	};
 		--GilneasCity TurtleWOW
 	GilneasCity = {
@@ -279,8 +280,7 @@ AtlasMaps = {
 		Continent = AL["Kalimdor"];
 		{ GREY.."1) "..AL["Erennius"], NPC, 60747 };
 		{ GREY.."2) "..AL["Solnius the Awakener"], NPC, 60748 };
-		{ GREY.."3) "..AL["Solnius the Awakener (Page 2)"], NPC, 60748 };
-		{ GREY.."4) "..AL["Favor of Erennius (ES Hard Mode)"], OBJECT, 2020042 };
+		{ GREY.."3) "..AL["Favor of Erennius (ES Hard Mode)"], OBJECT, 2020042 };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 	};
 	RazorfenKraul = {
