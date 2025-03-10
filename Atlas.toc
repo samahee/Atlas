@@ -32,6 +32,7 @@ Locale\Atlas-zhCN.lua
 Locale\Atlas-esES.lua
 Locale\Atlas-zhTW.lua
 Locale\Atlas-ruRU.lua
+Locale\Atlas-koKR.lua
 
 AtlasMaps.lua
 AtlasDropDown.lua

@@ -551,6 +551,7 @@ function Atlas_Refresh()
 	AtlasSearchEditBox:SetText("");
 	AtlasSearchEditBox:ClearFocus();
 
+
 	--create and align any new entry buttons that we need
 	for i = 1, ATLAS_CUR_LINES do
 		if (not getglobal("AtlasEntry" .. i)) then
